@@ -5,17 +5,35 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
-import { MatSliderModule } from '@angular/material/slider';
+//import { MatSliderModule } from '@angular/material/slider';
+import {MatInputModule} from '@angular/material/input';
+import { EmployeeComponent } from './employee/employee.component';
+import { ShowEmployeeComponent } from './employee/show-employee/show-employee.component';
+import { EditEmployeeComponent } from './employee/edit-employee/edit-employee.component';
+import { AddEmployeeComponent } from './employee/add-employee/add-employee.component';
+import { DepartmentComponent } from './department/department.component';
+import { ShowDepartmentComponent } from './employee/show-department/show-department.component';
+import { EditDepartmentComponent } from './department/edit-department/edit-department.component';
+import { AddDepartmentComponent } from './department/add-department/add-department.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    EmployeeComponent,
+    ShowEmployeeComponent,
+    EditEmployeeComponent,
+    AddEmployeeComponent,
+    DepartmentComponent,
+    ShowDepartmentComponent,
+    EditDepartmentComponent,
+    AddDepartmentComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    MatSliderModule
+    //MatSliderModule,
+    MatInputModule
   ],
   providers: [],
   bootstrap: [AppComponent]
