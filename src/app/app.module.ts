@@ -28,7 +28,6 @@ import { EmployeeService } from 'src/app/services/employee.service'
     EditDepartmentComponent,
     AddDepartmentComponent,
     
-    
   ],
   imports: [
     BrowserModule,
@@ -42,3 +41,4 @@ import { EmployeeService } from 'src/app/services/employee.service'
   bootstrap: [AppComponent]
 })
 export class AppModule { }
+
